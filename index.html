@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Alvarez - Licensed Realtor | Miami New Realty</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background-color: #f9f9f9; color: #333; }
+        header { background: linear-gradient(135deg, #004aad, #002f6c); color: white; text-align: center; padding: 40px 20px; }
+        header h1 { margin: 0; font-size: 2.5em; }
+        header p { margin: 10px 0 20px; font-size: 1.2em; }
+        .contact-buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+        .contact-btn { display: inline-block; background-color: #ff6600; color: white; padding: 12px 24px; text-decoration: none; font-weight: bold; border-radius: 5px; transition: background 0.3s ease; }
+        .contact-btn:hover { background-color: #e65c00; }
+        .fallback { background-color: #222; color: #fff; padding: 10px; border-radius: 5px; margin-top: 5px; cursor: pointer; }
+        section { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+        h2 { color: #004aad; margin-bottom: 15px; }
+        p { line-height: 1.6; margin-bottom: 20px; }
+        footer { background-color: #004aad; color: white; text-align: center; padding: 20px; margin-top: 40px; font-size: 0.9em; }
+        @media (max-width: 600px) { header h1 { font-size: 2em; } .contact-btn { flex: 1 1 100%; text-align: center; } }
+    </style>
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert(text + ' copied to clipboard');
+            });
+        }
+    </script>
+</head>
+<body>
+
+<header>
+    <h1>Gabriel Alvarez</h1>
+    <p>Licensed Realtor | Miami New Realty</p>
+    <div class="contact-buttons">
+        <a class="contact-btn" href="tel:+17869621922">📞 Call Me</a>
+        <div class="fallback" onclick="copyToClipboard('+1 786-962-1922')">📞 Copy Phone Number</div>
+        <a class="contact-btn" href="https://wa.me/17869621922" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+        <a class="contact-btn" href="mailto:gabrielrealtor33@gmail.com">📧 Email Me</a>
+        <div class="fallback" onclick="copyToClipboard('gabrielrealtor33@gmail.com')">📧 Copy Email</div>
+    </div>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>Gabriel Alvarez is a passionate and dedicated licensed realtor with Miami New Realty, committed to delivering exceptional real estate experiences in Miami Springs, Doral, and Coral Gables. Although a recent high school graduate, Gabriel brings fresh energy, modern marketing strategies, and a deep commitment to his clients’ success. Backed by a team led by his mother, a highly respected realtor with 14 years of industry expertise, Gabriel combines youthful drive with proven experience to offer buyers and sellers an unbeatable combination of innovation and knowledge.</p>
+
+    <h2>My Approach</h2>
+    <p>As a licensed realtor at Miami New Realty, Gabriel Alvarez focuses on serving buyers and sellers in the $500,000 to $5,000,000 range. His approach goes beyond simply listing homes—he markets them strategically, using tailored campaigns that reach the right audience, generate excitement, and maximize value. This marketing-driven philosophy is what sets Gabriel apart from the rest of the industry, ensuring his clients’ properties stand out in the competitive Miami Springs, Doral, and Coral Gables markets.</p>
+
+    <h2>Mission & Goals</h2>
+    <p>Gabriel’s mission is simple: to become a top producer at Miami New Realty while helping as many people as possible achieve their real estate goals. He understands that buying or selling a home is one of the most significant decisions in a person’s life, which is why he treats each transaction with the same care, attention, and dedication as if it were his own. Whether representing first-time buyers, seasoned investors, or luxury sellers, Gabriel Alvarez provides expert guidance every step of the way as a trusted licensed realtor.</p>
+
+    <h2>Why Work With Me</h2>
+    <p>With a forward-thinking mindset and an unwavering commitment to excellence, Gabriel Alvarez is quickly making his mark in Miami’s real estate scene. If you are looking for a licensed realtor in Miami Springs, Doral, or Coral Gables who doesn’t just list your property but actively markets it for maximum results, Gabriel Alvarez and Miami New Realty are ready to deliver. His unique blend of youthful energy, modern marketing, and family-backed expertise makes him the realtor you want in your corner.</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Gabriel Alvarez | Licensed Realtor at Miami New Realty | Email: gabrielrealtor33@gmail.com | Phone: +1 786-962-1922</p>
+</footer>
+
+</body>
+</html>
